@@ -9,6 +9,11 @@ La solucion de este reto cuenta con varias funciones realizadas para generar una
 ![alt text](image-3.png)
 * Para sortear el amigo secreto, tendremos que darle click al boton sortear amigo, al hacer esto el amigo secreto aparecera con un color verde donde estaba la lista de amigos, asi:
 ![alt text](image-5.png)
+### Validaciones
+* No se puede ingresar un nombre vacio
+![alt text](image-2.png)
+* No se puede sortear un amigo secreto con la lista vacia
+![alt text](image-1.png)
 ### Funciones
 ```
 function agregarAmigo()
@@ -30,9 +35,3 @@ Esta función, al igual que la de actualizarLista, se encarga unicamente de actu
 function limpiarInput()
 ```
 Esta funcion se encarga unicamente de limpiar el input donde se ingresan los nombres de los amigos.
-
-### Validaciones
-* No se puede ingresar un nombre vacio
-![alt text](image-2.png)
-* No se puede sortear un amigo secreto con la lista vacia
-![alt text](image-1.png)
