@@ -3,8 +3,12 @@ Solucion al Challenge de amigo de practicando logica de programación.
 
 ## Funcionamiento
 La solucion de este reto cuenta con varias funciones realizadas para generar una experiencia de usuario mas amena y controlada.
-
-
+* Se empieza por ingresar los nombre en el capot de texto dandole click al boton añadir,de la siguiente forma:
+![alt text](image-4.png)
+* Al ingresar amigos, estos se veran reflejados el la lista debajo del campo de texto, asi:
+![alt text](image-3.png)
+* Para sortear el amigo secreto, tendremos que darle click al boton sortear amigo, al hacer esto el amigo secreto aparecera con un color verde donde estaba la lista de amigos, asi:
+![alt text](image-5.png)
 ### Funciones
 ```
 function agregarAmigo()
@@ -29,4 +33,6 @@ Esta funcion se encarga unicamente de limpiar el input donde se ingresan los nom
 
 ### Validaciones
 * No se puede ingresar un nombre vacio
+![alt text](image-2.png)
 * No se puede sortear un amigo secreto con la lista vacia
+![alt text](image-1.png)
