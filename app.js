@@ -45,4 +45,8 @@ function actualizarAmigoSecreto(amigoSecreto){
     document.getElementById("listaAmigos").innerHTML = "";
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `El amigo secreto es: ${amigoSecreto}`;
+    listaAmigos = [];
+    return;
 }
+
+
